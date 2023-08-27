@@ -1,6 +1,8 @@
 import streamlit as st
 import joblib 
 
+import sklearn
+
 model=joblib.load('loan.pkl')
 
 @st.cache()
